@@ -16,6 +16,8 @@
 		3EDB9FBD27710CDD00A4ED2A /* Lifehacks__UIKit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB9FBC27710CDD00A4ED2A /* Lifehacks__UIKit_Tests.swift */; };
 		3EDB9FC727710CDD00A4ED2A /* Lifehacks__UIKit_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB9FC627710CDD00A4ED2A /* Lifehacks__UIKit_UITests.swift */; };
 		3EDB9FC927710CDD00A4ED2A /* Lifehacks__UIKit_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB9FC827710CDD00A4ED2A /* Lifehacks__UIKit_UITestsLaunchTests.swift */; };
+		3EDB9FD6277117CD00A4ED2A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB9FD5277117CD00A4ED2A /* Model.swift */; };
+		3EDBD53627726679000CD434 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDBD53527726679000CD434 /* StateController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3EDB9FC227710CDD00A4ED2A /* Lifehacks (UIKit)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lifehacks (UIKit)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDB9FC627710CDD00A4ED2A /* Lifehacks__UIKit_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lifehacks__UIKit_UITests.swift; sourceTree = "<group>"; };
 		3EDB9FC827710CDD00A4ED2A /* Lifehacks__UIKit_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lifehacks__UIKit_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EDB9FD5277117CD00A4ED2A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3EDBD53527726679000CD434 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		3EDB9FA427710CDC00A4ED2A /* Lifehacks (UIKit) */ = {
 			isa = PBXGroup;
 			children = (
+				3EDBD53527726679000CD434 /* StateController.swift */,
 				3EDB9FA527710CDC00A4ED2A /* AppDelegate.swift */,
 				3EDB9FA727710CDC00A4ED2A /* SceneDelegate.swift */,
 				3EDB9FA927710CDC00A4ED2A /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				3EDB9FAE27710CDD00A4ED2A /* Assets.xcassets */,
 				3EDB9FB027710CDD00A4ED2A /* LaunchScreen.storyboard */,
 				3EDB9FB327710CDD00A4ED2A /* Info.plist */,
+				3EDB9FD5277117CD00A4ED2A /* Model.swift */,
 			);
 			path = "Lifehacks (UIKit)";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				3EDB9FAA27710CDC00A4ED2A /* ViewController.swift in Sources */,
 				3EDB9FA627710CDC00A4ED2A /* AppDelegate.swift in Sources */,
 				3EDB9FA827710CDC00A4ED2A /* SceneDelegate.swift in Sources */,
+				3EDB9FD6277117CD00A4ED2A /* Model.swift in Sources */,
+				3EDBD53627726679000CD434 /* StateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
