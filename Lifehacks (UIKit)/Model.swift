@@ -14,7 +14,7 @@ struct User {
     let reputation: Int
 }
 
-struct Quesiton {
+struct Question {
     let title: String
     let body: String
     let score: Int
